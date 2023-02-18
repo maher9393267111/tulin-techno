@@ -1,13 +1,9 @@
-/*tailwindcss utility classes*/
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com*/
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-/*
-Document
-========
-*/
-/**
-Use a better box model (opinionated).
-*/
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+
+
+
+
 *,
 ::before,
 ::after {
@@ -38,6 +34,9 @@ Remove the margin in all browsers.
 */
 body {
 	margin: 0;
+	/* font-family:'Droid Arabic Naskh', serif; */
+	font-family: 'Arabic Typesetting', Verdana, Arial, Helvetica, sans-serif;
+	 line-height:60px;
 }
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
@@ -2602,4 +2601,9 @@ li.menu-item-has-children.active .menu-expand {
 	.bg-auto {
 		background-size: cover;
 	}
+}
+
+
+.img-ecom {
+	height: 522px !important;
 }

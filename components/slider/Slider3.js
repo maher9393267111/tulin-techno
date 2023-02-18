@@ -18,7 +18,14 @@ const Slider3 = () => {
             >
 
                 <SwiperSlide>
-                    <img className="rounded" src="/imgs/placeholders/mockup-1.png" alt="Monst" />
+                    <img 
+                   
+                    
+                    className="rounded img-ecom  w-full  h-[520px]" src=
+                     " https://cdn.dribbble.com/users/1254731/screenshots/16899784/media/9d83b579cc6279663ac0324bfc15d94f.jpg?compress=1&resize=400x300"
+                    // "/imgs/placeholders/mockup-1.png"
+                    
+                    alt="Monst" />
                 </SwiperSlide>
                 <SwiperSlide>
 

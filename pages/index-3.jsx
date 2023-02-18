@@ -55,7 +55,13 @@ const Index3 = () => {
                             </p>
                         </div>
                         <div className="relative max-w-6xl mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                            <img src="/imgs/elements/macbook.png" alt="Monst" />
+                            <img 
+                            src=
+                            // " https://cdn.dribbble.com/users/1254731/screenshots/16899784/media/9d83b579cc6279663ac0324bfc15d94f.jpg?compress=1&resize=400x300"
+                            
+                            "/imgs/elements/macbook.png"
+                            
+                            alt="Monst" />
                             <div className="absolute" style={{ top: "5.8%", left: "14.6%", width: "72.8%", height: "76.7%" }}>
                                 <div className="relative w-full">
                                     <div className="carausel-fade-2 slick-carausel dot-style-1" id="carausel-fade-2-1">
