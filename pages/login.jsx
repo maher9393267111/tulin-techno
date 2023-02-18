@@ -16,8 +16,8 @@ const Login = () => {
                         <div className="relative flex flex-wrap pt-12">
                             <div className="lg:flex lg:flex-col w-full lg:w-1/2 py-6 lg:pr-20">
                                 <div className="w-full max-w-lg mx-auto lg:mx-0 my-auto wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
-                                    <span className="text-sm text-blueGray-400">Sign In</span>
-                                    <h4 className="mb-6 text-3xl">Join our community</h4>
+                                    <span className="text-sm text-blueGray-400  font-bold">Sign In</span>
+                                    <h4 className="mb-6 text-3xl  bg-blue-100">Join our community</h4>
                                     <div className="flex mb-4 px-4 bg-blueGray-50 rounded border border-gray-200">
                                         <input className="w-full py-4 text-xs placeholder-blueGray-400 font-semibold leading-none bg-blueGray-50 outline-none" type="email" placeholder="name@email.com" />
                                         <svg className="h-6 w-6 ml-4 my-auto text-blueGray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

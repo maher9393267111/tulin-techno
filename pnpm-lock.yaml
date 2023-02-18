@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@headlessui/react': ^1.7.3
-  '@heroicons/react': ^2.0.12
+  '@heroicons/react': ^1.0.5
   babel-plugin-styled-components: ^2.0.7
   eslint: 8.24.0
   eslint-config-next: 12.3.1
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@headlessui/react': 1.7.11_sfoxds7t5ydpegc3knd667wn6m
-  '@heroicons/react': 2.0.16_react@17.0.2
+  '@heroicons/react': 1.0.6_react@17.0.2
   next: 12.3.1_xso2exqd5rv25qesgjdkxmmyam
   next-images: 1.8.4
   react: 17.0.2
@@ -200,8 +200,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /@heroicons/react/2.0.16_react@17.0.2:
-    resolution: {integrity: sha512-x89rFxH3SRdYaA+JCXwfe+RkE1SFTo9GcOkZettHer71Y3T7V+ogKmfw5CjTazgS3d0ClJ7p1NA+SP7VQLQcLw==}
+  /@heroicons/react/1.0.6_react@17.0.2:
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
     peerDependencies:
       react: '>= 16'
     dependencies:

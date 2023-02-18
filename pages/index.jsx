@@ -2,24 +2,40 @@ import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout"
 import Slider1 from "../components/slider/Slider1"
+import Slider2 from "../components/slider/Slider2"
+import Link from "next/link"
 
 function Home() {
     return (
         <>
-            <Layout>
+            <Layout  dir="rtl">
                 <section className="bg-auto bg-top bg-no-repeat -mt-24 pt-24 main-iamge" style={{ backgroundImage: "url('/imgs/backgrounds/main-background-image.png')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn" style={{ color: "#fff" }}>
-                                  LAW FIRM <br />
-                                  <span>JEONGMOON</span>
+                                تولين تكنولوجي
+                                  
+                                   <br />
+                                  {/* <span>
+                                    شركة برمجيات
+                                  </span> */}
                                 </h2>
                                 <p className="text-whiteColor-600 leading-relaxed wow animate__animated animate__fadeIn">
-                                    We are <strong className="text-600">Monst</strong>, a Creative Design{" "}
-                                    <span className="typewrite d-inline text-brand">
-                                        <TextEffect text1="Web Agency" text2="Social Marketing" />
+
+                                <span className="typewrite d-inline text-brand">
+                                        <TextEffect text1="برمجة مواقع" text2="تصميم مواقع"  
+                                        text3="تصاميم سوشال ميديا"
+                                        
+                                        />
                                     </span>
+                                    نحن <strong className="text-600">تولين تكنولوجي</strong>, شركة برمجيات{" "}
+                                    {/* <span className="typewrite d-inline text-brand">
+                                        <TextEffect text1="برمجة مواقع" text2="تصميم مواقع"  
+                                        text3="تصاميم سوشال ميديا"
+                                        
+                                        />
+                                    </span> */}
                                 </p>
                             </div>
                             <div>
@@ -101,109 +117,176 @@ function Home() {
                     </div>
                 </section>
 
-                <section className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden" id="key-features">
-                    <div className="container px-4 mx-auto">
-                        <div className="flex flex-wrap lg:flex-nowrap">
-                            <div className="w-full lg:w-1/2">
-                                <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    <div className="mb-4">
-                                        <span className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown rounded-mainColor" data-wow-delay=".9s">
-                                            Why choose us
-                                        </span>
-                                        <h2 className="text-4xl mt-5 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                            Key Features
-                                        </h2>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Expand Your Reach</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Annualized Growth</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".9s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Book Your Providers</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
+
+
+{/* // Section 2  */}
+
+<section className="py-12 md:py-20">
+                    <div className="container">
+                        <div className="flex flex-wrap -mx-3">
+                            <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
+                                <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">
+                                    <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
+                                        فريق عمل متكامل لحل  <span className="text-blue-500">المشكلات البرمجية المعقدة</span> 
+                                    </h2>
+                                    <p className="text-s md:text-base text-blueGray-600 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
+                                    بفضل خبراتنا المتعددة . أجتمعنا كفريق كامل و دمجنا خبرانتا الواسعة لتحقيق موقع متكامل بكل ما يحتاج
+                                    </p>
+                                </div>
+                                <div className="lg:absolute lg:bottom-0 lg:left-0 flex justify-center wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                    <div id="carausel-fade-1-arrows" className="flex"></div>
+                                </div>
+                            </div>
+                            <div className="w-full lg:w-2/3 flex flex-wrap px-3 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                <div className="relative w-full rounded">
+                                    <div className="carausel-fade slick-carausel rounded" id="carausel-fade-1">
+                                        <Slider2 />
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/imgs/placeholders/img-1.png" alt="Monst" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/imgs/elements/blob-tear.svg" alt="Monst" />
-                                    <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/imgs/elements/blob-tear.svg" alt="Monst" />
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>
 
+
+
+                {/* // End Section 2 */}
+
+
+
+
+{/* // Section 3  */}
+
+
+
                 <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container px-4 mx-auto">
-                        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-                            <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                                <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
-                                    <span>We are</span>
-                                    <span className="text-mainColor-600"> awesome team</span>
-                                    <br />
-                                    <span>for your business dream</span>
-                                </h2>
-                            </div>
-                            <div className="w-full lg:w-1/2">
-                                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
-                            </div>
-                        </div>
+                      
+{/* // Header- */}
+
+
+<div className=" text-3xl font-bold text-center my-6">
+
+<h2>الخطط و الإستراجية لنجاح موقعك</h2>
+
+</div>
+
+
+
+
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full-mainColor">1</div>
                                     <img className="h-36 mx-auto my-4" src="/imgs/illustrations/eating.svg" alt="Monst" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project Initialization</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</p>
+                                    <h3 className="mb-2 font-bold font-heading text-xl">دراسة النشاط التجاري</h3>
+                                    <p className="text-md font-bold text-blueGray-600 leading-relaxed">نقوم بدراسة نشاطك التجاري و نوع المنتجات و المحتوى الخاص بك لإدراجه ضمن الموقع و دراسة حول الجمهور الخاص بك
+                                    </p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full-mainColor">2</div>
                                     <img className="h-36 mx-auto my-4" src="/imgs/illustrations/space.svg" alt="Monst" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project planning</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">A project plan is essential to keep everything related to the project organized, methodical, and on track.</p>
+                                    <h3 className="mb-2 font-bold font-heading text-xl">وضع الخطة العمل</h3>
+                                    <p className="text-md font-bold text-blueGray-600 leading-relaxed">
+                                    وضع خطة و ألية العمل حيث نتحقق من الألوان الخاصة بالموقع و خطة بناء الصفحات و التصميم الرئيسي 
+                                    </p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full-mainColor">3</div>
                                     <img className="h-36 mx-auto my-4" src="/imgs/illustrations/tasks.svg" alt="Monst" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project organization</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">Moving forward you will be able to keep yourself and your team on track, and address challenges early.</p>
+                                    <h3 className="mb-2 font-bold font-heading text-xl">التنفيذ و التصميم</h3>
+                                    <p className="text-md font-bold text-blueGray-600 leading-relaxed">
+
+                                    نعمل على التصميم وفق نشاط الموقع و التصميم المتوافق مع محتويات الموقع و وضع اللمسات الأكثر جاذبية 
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+
+
+
+{/* // end section three */}
+
+
+
+
+{/* // section 4 */}
+
+<section className="py-20" id="how-we-work">
+                    <div className="container">
+                        <div className="flex flex-wrap -mx-8">
+                            <div className="w-full lg:w-1/2 px-8">
+                                <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
+                                    <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading max-w-md wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                        Great Things In Business Are <span className="text-blue-600">Never Done</span> By One Person.
+                                    </h2>
+                                    <p className="mb-8 leading-loose text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.
+                                    </p>
+                                    <Link href="/services">
+                                        <a className="inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded hover-up-2 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                            Learn More
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="w-full lg:w-1/2 px-8">
+                                <ul className="space-y-12">
+                                    <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                        <div className="px-4">
+                                            <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">1</span>
+                                        </div>
+                                        <div className="px-4">
+                                            <h3 className="my-4 text-xl font-semibold">Project Initialization</h3>
+                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                        <div className="px-4">
+                                            <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">2</span>
+                                        </div>
+                                        <div className="px-4">
+                                            <h3 className="my-4 text-xl font-semibold">Looking for Creative</h3>
+                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
+                                        <div className="px-4">
+                                            <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">3</span>
+                                        </div>
+                                        <div className="px-4">
+                                            <h3 className="my-4 text-xl font-semibold">Market Development</h3>
+                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+{/* end section 4  */}
+
+
+
+
+
                 <section className="py-12 md:py-20">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap -mx-3">
