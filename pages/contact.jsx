@@ -141,6 +141,7 @@ const Contact = () => {
 
 type="email" placeholder="Email Address" name="email"
                                         // type="text" placeholder="Name"
+                                    
                                         
                                         />
                                     </div>
