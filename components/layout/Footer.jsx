@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link"
-import Image from "next/image";
+// import Image from "next/image";
 import { companyName, whatsappLink, hrefLinkPhone, companyPhone, hrefLinkEmail, companyEmail } from '../../data/social-links';
 
 
@@ -43,12 +43,17 @@ const Footer = () => {
                         <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
                             <Link href="/">
                                 <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
-                                    <Image
+                                    {/* <Image
                                         src={"/imgs/site-logos/logo.png"}
                                         // {"/imgs/logos/logo-jungmoon-white.png"}
                                         width={200}
                                         height={200}
-                                    />
+                                    /> */}
+
+
+<img src="/imgs/site-logos/logo.png" className=" logo-footer" alt="" />
+
+
                                 </a>
                             </Link>
                         </div>
