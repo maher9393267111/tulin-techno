@@ -36,7 +36,7 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span> 
-                                    دومين com
+                                دومين com لمدة سنة
 
                                 </span>
                             </li>
@@ -59,7 +59,7 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span> 
-                               مساحة 30غيغا SSD
+                               مساحة 3غيغا SSD
                                       
 
                                 </span>
@@ -96,7 +96,7 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span>
-                                دومين com
+                                دومين com لمدة سنة
 
                                 </span>
                             </li>
@@ -124,7 +124,7 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span>
-                                إستضافة 30 جيجا SSD
+                                إستضافة 5 جيجا SSD
 
                                 </span>
                             </li>
@@ -162,7 +162,8 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span>
-                                دومين com
+
+                                دومين com لمدة سنة
                                 </span>
                             </li>
                             <li className="flex mb-3">
@@ -191,7 +192,7 @@ export default function PriceCards() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <span>
-                                إستضافة 50 جيجا SSD
+                                إستضافة 10 جيجا SSD
 
                                 </span>
                             </li>
