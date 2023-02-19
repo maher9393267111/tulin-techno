@@ -30,7 +30,7 @@ const Contact = () => {
                         </h1>
                         <ul className="flex text-white text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
                             <li className="inline-flex items-center">
-                                <a href="#" className="hover:text-blue-500 text-white">
+                                <a href="#" className="hover:text-blue-500 text-2xl text-white">
                                     الرئيسية
                                 </a>
                                 <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
@@ -38,7 +38,7 @@ const Contact = () => {
                                 </svg>
                             </li>
                             <li className="inline-flex items-center">
-                                <a href="#" className="hover:text-blue-500 text-white">
+                                <a href="#" className="hover:text-blue-500 text-2xl text-white">
                                    تواصل معنا
                                 </a>
                                 <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
