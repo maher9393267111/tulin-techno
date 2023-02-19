@@ -15,7 +15,7 @@ const Header = ({handleHidden}) => {
       })
     return (
         <>
-            <header className={scroll ? "bg-transparent sticky-bar mt-4 stick": "bg-transparent sticky-bar mt-4"}>
+            <header  dir="" className={scroll ? "bg-transparent sticky-bar mt-4 stick": "bg-transparent sticky-bar mt-4"}>
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <Link href="/">
@@ -46,7 +46,7 @@ height={40}
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="/">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
-                                        Home
+                                        الرئيسية
                                     </a>
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">
@@ -90,14 +90,14 @@ height={40}
                             <li className="pt-4 pb-4">
                                 <Link href="/about">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
-                                        About Us
+                                        من نحن
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/services">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
-                                        Services
+                                        الخدمات المقدمة
                                     </a>
                                 </Link>
                             </li>
