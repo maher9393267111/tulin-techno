@@ -150,7 +150,7 @@ type="email" placeholder="Email Address" name="email"
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" 
                                        
-                                        name="subject"
+                                        name="message"
                                         type="text" placeholder="Subject"
                                         
                                         
