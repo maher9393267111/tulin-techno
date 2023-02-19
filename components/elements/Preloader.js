@@ -7,7 +7,9 @@ const Preloader = () => {
             <div className="preloader flex-1 content-center">
                 <div className="logo absolute inset-y-2/4 jump">
                     <img src="/imgs/logos/favicon.svg" alt="Monst" />
-                    <h1 className="text-lg font-semibold">Monst</h1>
+                    <h1 className="text-2xl text-center font-semibold">
+                        {/* TulinTechno */}
+                     </h1>
                 </div>
             </div>
         </div>
