@@ -40,7 +40,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                         <ul className="mobile-menu">
                             <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
                                 {/* <span class="menu-expand">+</span> */}
-                                <Link href="#">
+                                <Link href="/">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">الرئيسية</a>
                                 </Link>
                                 {/* <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
