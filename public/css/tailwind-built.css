@@ -2607,3 +2607,10 @@ li.menu-item-has-children.active .menu-expand {
 .img-ecom {
 	height: 522px !important;
 }
+
+.slider-1-img{
+
+	width: 282px !important;
+	height: 382px !important;
+	object-fit: cover;
+}

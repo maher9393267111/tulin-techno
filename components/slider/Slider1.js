@@ -26,15 +26,15 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/imgs/placeholders/img-2.jpg" alt="Monst" />
+                            <img className="rounded-xl slider-1-img" src="https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Monst" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services">
-                                            <a>User growth</a>
+                                            <a>تصاميم سوشيال ميديا</a>
                                         </Link>
                                     </h1>
-                                    <p className="mt-2 text-xs text-gray-500">Harvard university</p>
+                                    <p className="mt-2 text-xs text-gray-500">تولين تكنولوجي</p>
                                 </div>
                                 <div>
                                     <Link href="/services">
@@ -48,15 +48,15 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/imgs/placeholders/img-3.jpg" alt="Monst" />
+                            <img className="rounded-xl slider-1-img" src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Monst" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services">
-                                            <a>Products</a>
+                                            <a>غرافيك ديزاين</a>
                                         </Link>
                                     </h1>
-                                    <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p>
+                                    <p className="mt-2 text-xs text-gray-500">تولين تكنولوجي</p>
                                 </div>
                                 <div>
                                     <Link href="/services">
@@ -75,10 +75,10 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services">
-                                            <a>تصميم مواقع ui/ux</a>
+                                            <a>ui/ux تصميم مواقع </a>
                                         </Link>
                                     </h1>
-                                    <p className="mt-2 text-xs text-gray-500">Oxford university</p>
+                                    <p className="mt-2 text-xs text-gray-500">تولين تكنولوجي</p>
                                 </div>
                                 <div>
                                     <Link href="/services">
@@ -92,15 +92,18 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/imgs/placeholders/img-5.jpg" alt="Monst" />
+                            <img
+                            
+                            
+                            className="rounded-xl  slider-1-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="Monst" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services">
-                                            <a>Shopping</a>
+                                            <a>برمجة مواقع </a>
                                         </Link>
                                     </h1>
-                                    <p className="mt-2 text-xs text-gray-500">Alibaba Co</p>
+                                    <p className="mt-2 text-xs text-gray-500">تولين تكنولوجي</p>
                                 </div>
                                 <div>
                                     <Link href="/services">
