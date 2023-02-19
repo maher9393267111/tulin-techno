@@ -26,13 +26,12 @@ const Header = ({handleHidden}) => {
 
                                 {scroll ? 
 
-                                    <Image
-                                    className=" object-cover"
-                                        src= {"/imgs/site-logos/logo.png"}
-                                        // {"/imgs/logos/logo-jungmoon.png"}
-                                        width={200}
-                                        height={40}
-                                    />
+<Image
+src= {"/imgs/site-logos/logo.png"}
+// {"/imgs/logos/logo-jungmoon-white.png"}
+width={200}
+height={40}
+/>
                                     :
                                     <Image
                                           src= {"/imgs/site-logos/logo.png"}

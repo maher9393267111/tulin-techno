@@ -6,9 +6,61 @@ const Blog = () => {
     return (
         <>
             <Layout>
-                <section className="py-20">
+
+
+            <section  dir='rtl' className="-mt-24 pt-40 pb-12 projects-style bg-[dimgray]">
                     <div className="container">
-                        <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">Our Blog</h1>
+                        <h1 className="text-2xl text-white lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">    من أعمالنا  </h1>
+                        <ul className="flex text-white text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-blue-500 text-white">
+                                    الرئيسية
+                                </a>
+                                <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </li>
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-blue-500 text-white">
+                                   أعمالنا
+                                </a>
+                                <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </li>
+                            {/* <li className="inline-flex items-center text-white">
+                                <span>Web Development</span>
+                            </li> */}
+                        </ul>
+                    </div>
+                </section>
+
+
+
+
+
+                <section dir="rtl" className="py-20">
+
+
+
+
+
+
+
+
+
+
+
+                    <div className="container">
+
+ {/* header Section  */}
+
+ 
+
+
+
+
+                        {/* <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">من أعمالنا</h1>
                         <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
                             <li className="inline-flex items-center">
                                 <a href="#" className="hover:text-blue-500 text-gray-800">
@@ -29,7 +81,7 @@ const Blog = () => {
                             <li className="inline-flex items-center text-gray-400">
                                 <span>Web Development</span>
                             </li>
-                        </ul>
+                        </ul> */}
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5" data-wow-delay=".1s">
                                 <Link href="/blog-single">

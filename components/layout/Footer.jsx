@@ -7,14 +7,15 @@ const Footer = () => {
         <>
             <section className="py-20">
                 <div className="container px-4 mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                    <div className="flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left">
+                    <div className="flex items-center flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left">
                         <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
                             <Link href="/">
                                 <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
-                                    <Image
-                                        src={"/imgs/logos/logo-jungmoon.png"}
-                                        width={190}
-                                        height={40}
+                                <Image
+                                          src= {"/imgs/site-logos/logo.png"}
+                                        // {"/imgs/logos/logo-jungmoon-white.png"}
+                                        width={200}
+                                        height={200}
                                     />
                                 </a>
                             </Link>
