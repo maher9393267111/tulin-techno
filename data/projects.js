@@ -189,18 +189,18 @@ link:"https://hoff.vercel.app"
                 
                 
 
-                                        {
-                                            id:12,
-                                            img:"https://my-work-site.vercel.app/static/media/theme12.01fc55d0e09bf219eef5.png",
-                                            title:'موقع شخصي مع مدونة',
-                                            subTitle:"تصميم موقع شخصي بتصميم مع مدونة وتصميم رائع بتقنية Nextjs وميزة الصفحات الديناميكية ",
-                                            tag:"مدونة +  بورتفوليو",
-                                            date:"2022-6-21",
-                                             link:""
+                                        // {
+                                        //     id:12,
+                                        //     img:"https://my-work-site.vercel.app/static/media/theme12.01fc55d0e09bf219eef5.png",
+                                        //     title:'موقع شخصي مع مدونة',
+                                        //     subTitle:"تصميم موقع شخصي بتصميم مع مدونة وتصميم رائع بتقنية Nextjs وميزة الصفحات الديناميكية ",
+                                        //     tag:"مدونة +  بورتفوليو",
+                                        //     date:"2022-6-21",
+                                        //      link:""
                                             
                                             
                                             
-                                            },
+                                        //     },
         
     
       

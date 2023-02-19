@@ -27,7 +27,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     <div className="flex items-center mb-8">
                         <Link href="#">
                             <a className="mr-auto text-3xl font-semibold leading-none">
-                                <img className="h-10" src="/imgs/logos/monst-logo.svg" alt="Monst" />
+                                <img className="h-10" src="/imgs/site-logos/logo.png" alt="tilin technology logo" />
                             </a>
                         </Link>
                         <button className="navbar-close" onClick={handleRemove}>
@@ -39,11 +39,11 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     <div>
                         <ul className="mobile-menu">
                             <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
-                                <span class="menu-expand">+</span>
+                                {/* <span class="menu-expand">+</span> */}
                                 <Link href="#">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">Home</a>
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">الرئيسية</a>
                                 </Link>
-                                <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
+                                {/* <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
                                     <li>
                                         <Link href="/index">
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 1</a>
@@ -69,24 +69,33 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 5</a>
                                         </Link>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li className="mb-1 rounded-xl">
-                                <Link href="/about">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">About Us</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
                                 <Link href="/services">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Services</a>
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">
+                                        
+                                        الخدمات المقدمة
+                                    
+                                    </a>
                                 </Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/portfolio">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Portfolio</a>
+                                <Link href="/blog">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
+                                      مشاريعنا
+                                        </a>
                                 </Link>
                             </li>
                             <li className="mb-1">
+                                <Link href="/contact">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
+                                    تواصل معنا
+                                        
+                                        </a>
+                                </Link>
+                            </li>
+                            {/* <li className="mb-1">
                                 <Link href="/pricing">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Pricing</a>
                                 </Link>
@@ -95,8 +104,11 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                 <Link href="/team">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Team</a>
                                 </Link>
-                            </li>
-                            <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
+                            </li> */}
+
+
+
+                            {/* <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
                                 <span class="menu-expand">+</span>
                                 <Link href="#">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Blog</a>
@@ -163,7 +175,14 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                         <a className="inline-block px-1" href="https://www.instagram.com">
                             <img src="/imgs/icons/instagram-blue.svg" alt="Monst" />
                         </a>
-                    </div>
+                    </div> */}
+
+
+
+</ul>
+</div>
+
+
                 </nav>
             </div>
         </>

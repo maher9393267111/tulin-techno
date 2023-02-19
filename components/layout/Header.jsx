@@ -45,13 +45,13 @@ src= {"/imgs/site-logos/logo.png"}
                             </a>
                         </Link>
                         <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
-                            <li className="group relative pt-4 pb-4 has-child">
+                            <li className="group relative pt-4 pb-4 has-chil">
                                 <Link href="/">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
                                         الرئيسية
                                     </a>
                                 </Link>
-                                <ul className="drop-down-menu min-w-200">
+                                {/* <ul className="drop-down-menu min-w-200">
                                     <li>
                                         <Link href="/">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
@@ -87,15 +87,15 @@ src= {"/imgs/site-logos/logo.png"}
                                             </a>
                                         </Link>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li className="pt-4 pb-4">
+                            {/* <li className="pt-4 pb-4">
                                 <Link href="/about">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
                                         من نحن
                                     </a>
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="pt-4 pb-4">
                                 <Link href="/services">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
@@ -103,7 +103,7 @@ src= {"/imgs/site-logos/logo.png"}
                                     </a>
                                 </Link>
                             </li>
-                            <li className="group relative pt-4 pb-4 has-child">
+                            {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
                                         Company
@@ -153,14 +153,17 @@ src= {"/imgs/site-logos/logo.png"}
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>
-                            <li className="group relative pt-4 pb-4 has-child">
-                                <Link href="#">
+                            </li> */}
+
+
+
+                            <li className="group relative pt-4 pb-4 has-chil">
+                                <Link href="/blog">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
-                                        Blog
+                                    مشاريعنا
                                     </a>
                                 </Link>
-                                <ul className="drop-down-menu min-w-200">
+                                {/* <ul className="drop-down-menu min-w-200">
                                     <li>
                                         <Link href="/blog">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
@@ -189,7 +192,7 @@ src= {"/imgs/site-logos/logo.png"}
                                             </a>
                                         </Link>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/contact">

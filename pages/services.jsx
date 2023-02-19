@@ -35,8 +35,8 @@ const Services = () => {
 
 
 
-                
-                <section className="pt-12">
+
+                <section dir='' className="pt-12">
                     <div className="container py-12 mx-auto">
                         <div className="flex flex-wrap">
                             <div className="w-full md:w-1/2 pr-12 px-3 order-0 md:order-0 mb-12 md:mb-0 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
@@ -60,12 +60,13 @@ const Services = () => {
 
                                     <div className="flex flex-wrap">
                                         <div className="w-full md:w-1/2 items-start pt-4 pb-8 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                            <div className="w-8 mb-5 text-blue-500">
+                                            <div className="w-8 mb-5 text-blue-500 flex">
                                                 <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">1</span>
+                                               
                                             </div>
                                             <div>
                                                 <h3 className="mb-2 text-xl font-semibold font-heading">غرافيك ديزاين</h3>
-                                                <p className="text-blueGray-600 font-semibold leading-loose text-sm mr-serv">
+                                                <p className="text-blueGray-600  font-semibold leading-loose text-sm mr-serv">
                                                 التصميم الجرافيكي هو فن توضيح الأفكار عن طريق رسومات وتصاميم فريدة ومتنوعة تجذب المشاهد وترسخ في الذهن مما يساعدك في تحقيق مبتغاك من تكوين هوية بصرية كاملة عن منتجك او موقعك وتقربك من جمهورك في وسائل التواصل الإجتماعي 
                                                 
                                                 </p>
