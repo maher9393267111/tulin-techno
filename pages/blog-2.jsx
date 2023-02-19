@@ -2,13 +2,13 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import Link from "next/link"
 
-const Blog2 = () => {
+const projects2 = () => {
     return (
         <>
             <Layout>
                 <section className="py-20">
                     <div className="container">
-                        <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">Our Blog</h1>
+                        <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">Our projects</h1>
                         <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
                             <li className="inline-flex items-center">
                                 <a href="#" className="hover:text-blue-500 text-gray-800">
@@ -32,18 +32,18 @@ const Blog2 = () => {
                         </ul>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
                             <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
-                                <Link href="/blog">
+                                <Link href="/projects">
                                     <a>
                                         <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Development</span>
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="/projects-single">
                                         <a className="hover:text-blue-500"> How to Make Website WCAG Compliant?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a className="text-xs font-semibold text-blue-600">
                                         <span>Read More</span>
                                         <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ const Blog2 = () => {
                                 </Link>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/imgs/placeholders/img-6.png" alt="Monst" />
                                     </a>
@@ -62,18 +62,18 @@ const Blog2 = () => {
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
                             <div className="w-full lg:w-1/2 px-4 lg:pl-20 lg:pt-4 order-1">
-                                <Link href="/blog-2">
+                                <Link href="/projects-2">
                                     <a>
                                         <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="/projects-single">
                                         <a className="hover:text-blue-500"> You have a Great Is Business Idea?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a className="text-xs font-semibold text-blue-600">
                                         <span>Read More</span>
                                         <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ const Blog2 = () => {
                                 </Link>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/imgs/placeholders/img-7.png" alt="Monst" />
                                     </a>
@@ -92,18 +92,18 @@ const Blog2 = () => {
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
                             <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
-                                <Link href="/blog-2">
+                                <Link href="/projects-2">
                                     <a>
                                         <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="/projects-single">
                                         <a className="hover:text-blue-500"> The Future of Enterprise API Development</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a className="text-xs font-semibold text-blue-600">
                                         <span>Read More</span>
                                         <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@ const Blog2 = () => {
                                 </Link>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/imgs/placeholders/img-8.png" alt="Monst" />
                                     </a>
@@ -122,18 +122,18 @@ const Blog2 = () => {
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
                             <div className="w-full lg:w-1/2 px-4 lg:pl-20 lg:pt-4 order-1">
-                                <Link href="/blog-2">
+                                <Link href="/projects-2">
                                     <a>
                                         <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="/projects-single">
                                         <a className="hover:text-blue-500"> How To Make Your iOS 13 Compatible?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a className="text-xs font-semibold text-blue-600">
                                         <span>Read More</span>
                                         <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@ const Blog2 = () => {
                                 </Link>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
-                                <Link href="/blog-single">
+                                <Link href="/projects-single">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/imgs/placeholders/img-9.jpg" alt="Monst" />
                                     </a>
@@ -151,7 +151,7 @@ const Blog2 = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <Link href="/blog">
+                            <Link href="/projects">
                                 <a className="hover-up-5 inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded">Show all posts</a>
                             </Link>
                         </div>
@@ -187,4 +187,4 @@ const Blog2 = () => {
     );
 };
 
-export default Blog2;
+export default projects2;

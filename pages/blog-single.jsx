@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import Link from "next/link"
 
-const BlogSingle = () => {
+const projectsSingle = () => {
     return (
         <>
             <Layout>
@@ -12,7 +12,7 @@ const BlogSingle = () => {
                             <div className="max-w-2xl mx-auto">
                                 <div className="text-center mb-6">
                                     <span className="text-base md:text-lg">
-                                        <Link href="/blog">
+                                        <Link href="/projects">
                                             <a className="text-blueGray-200 hover:underline">
                                                 <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl mr-3">Bussiness</span>
                                             </a>
@@ -151,7 +151,7 @@ const BlogSingle = () => {
                                 </form>
                             </div>
                             <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center justify-center mt-12">
-                                <Link href="/blog">
+                                <Link href="/projects">
                                     <a className="px-4 py-2 mt-2 text-gray-600 transition-colors duration-200 transform border border-gray-100 rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none"> Read More Articles </a>
                                 </Link>
                             </div>
@@ -188,4 +188,4 @@ const BlogSingle = () => {
     );
 };
 
-export default BlogSingle;
+export default projectsSingle;

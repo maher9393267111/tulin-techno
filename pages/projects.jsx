@@ -10,7 +10,7 @@ const Blog = () => {
             <Layout>
 
 
-            <section  dir='rtl' className="-mt-24 pt-40 pb-12 projects-style bg-[dimgray]">
+            <section  dir='rt' className="-mt-24 pt-40 pb-12 projects-style bg-[dimgray]">
                     <div className="container">
                         <h1 className="text-2xl text-white lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">    من أعمالنا  </h1>
                         <ul className="flex text-white text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
@@ -175,8 +175,8 @@ return (
 
 
                         <div className="text-center">
-                            <Link href="/blog-2">
-                                <a className="hover-up-5 inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded">Show all posts</a>
+                            <Link href="/projects">
+                                <a className="hover-up-5 inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded">All Projects</a>
                             </Link>
                         </div>
                     </div>

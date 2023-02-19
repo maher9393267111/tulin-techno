@@ -536,7 +536,7 @@ const Pricing = () => {
                                     </svg>
                                     <div className="leading-relaxed">
                                         <span className="text-sm text-blueGray-400">E-mail</span>
-                                        <p>contact@monst.com</p>
+                                        <p>contact@tulin.com</p>
                                         <p>pat@example.com</p>
                                     </div>
                                 </div>

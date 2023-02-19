@@ -81,7 +81,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                 </Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/blog">
+                                <Link href="/projects">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                                       مشاريعنا
                                         </a>
@@ -111,26 +111,26 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                             {/* <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
                                 <span class="menu-expand">+</span>
                                 <Link href="#">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Blog</a>
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">projects</a>
                                 </Link>
                                 <ul className={isActive.key == 2 ? "dropdown pl-5" : "hidden"}>
                                     <li>
-                                        <Link href="/blog">
+                                        <Link href="/projects">
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Category 1</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-2">
+                                        <Link href="/projects-2">
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Category 2</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single">
+                                        <Link href="/projects-single">
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Single 1</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single-2">
+                                        <Link href="/projects-single-2">
                                             <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Single 2</a>
                                         </Link>
                                     </li>

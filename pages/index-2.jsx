@@ -287,7 +287,7 @@ const Index2 = () => {
                                     </svg>
                                     <div className="leading-relaxed">
                                         <span className="text-sm text-blueGray-400">E-mail</span>
-                                        <p>contact@monst.com</p>
+                                        <p>contact@tulin.com</p>
                                         <p>pat@example.com</p>
                                     </div>
                                 </div>
@@ -298,8 +298,8 @@ const Index2 = () => {
                                     </svg>
                                     <div className="leading-relaxed">
                                         <span className="text-sm text-blueGray-400">Address</span>
-                                        <p>11567 E Broadview Dr</p>
-                                        <p>Colorado(CO), 80117</p>
+                                        <p>11567 medhat-pasha</p>
+                                        <p>turkey, Al-fatih</p>
                                     </div>
                                 </div>
                             </div>

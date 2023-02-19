@@ -37,7 +37,7 @@ const Team = () => {
                         <div className="w-full md:w-1/2 py-5 md:px-5">
                             <div className="px-6 py-10 bg-white shadow rounded hover-up-5 wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".1s">
                                 <div className="flex items-center mb-4">
-                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-1.png" alt="Monst" />
+                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-1.png" alt="tulin" />
                                     <div className="pl-4">
                                         <strong className="mt-6 mb-2 text-md">Geraldine Tusoy</strong>
                                         <p className="text-gray-500 text-xs mt-3">CEO, Co Founders</p>
@@ -46,10 +46,10 @@ const Team = () => {
                                 <p className="leading-loose text-blueGray-400 mb-5">Donec consequat tortor risus, at auctor felis consequat a. Donec quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar. Vestibulum non quam velit.</p>
                                 <div className="flex space-x-2">
                                     <a href="#">
-                                        <img src="/imgs/icons/facebook-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/facebook-blue.svg" alt="tulin" />
                                     </a>
                                     <a href="#">
-                                        <img src="/imgs/icons/instagram-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/instagram-blue.svg" alt="tulin" />
                                     </a>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const Team = () => {
                         <div className="w-full md:w-1/2 py-5 md:px-5">
                             <div className="px-6 py-10 bg-white shadow rounded hover-up-5 wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".3s">
                                 <div className="flex items-center mb-4">
-                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-2.png" alt="Monst" />
+                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-2.png" alt="tulin" />
                                     <div className="pl-4">
                                         <strong className="mt-6 mb-2 text-md">Clara Kolawole</strong>
                                         <p className="text-gray-500 text-xs mt-3">CEO-Founder</p>
@@ -66,10 +66,10 @@ const Team = () => {
                                 <p className="leading-loose text-blueGray-400 mb-5">Donec consequat tortor risus, at auctor felis consequat a. Donec quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar. Vestibulum non quam velit.</p>
                                 <div className="flex space-x-2">
                                     <a href="#">
-                                        <img src="/imgs/icons/facebook-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/facebook-blue.svg" alt="tulin" />
                                     </a>
                                     <a href="#">
-                                        <img src="/imgs/icons/instagram-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/instagram-blue.svg" alt="tulin" />
                                     </a>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ const Team = () => {
                         <div className="w-full md:w-1/2 py-5 md:px-5">
                             <div className="px-6 py-10 bg-white shadow rounded hover-up-5 wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".5s">
                                 <div className="flex items-center mb-4">
-                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-3.png" alt="Monst" />
+                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-3.png" alt="tulin" />
                                     <div className="pl-4">
                                         <strong className="mt-6 mb-2 text-md">Chris Fulton</strong>
                                         <p className="text-gray-500 text-xs mt-3">Project-Manager</p>
@@ -86,10 +86,10 @@ const Team = () => {
                                 <p className="leading-loose text-blueGray-400 mb-5">Donec consequat tortor risus, at auctor felis consequat a. Donec quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar. Vestibulum non quam velit.</p>
                                 <div className="flex space-x-2">
                                     <a href="#">
-                                        <img src="/imgs/icons/facebook-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/facebook-blue.svg" alt="tulin" />
                                     </a>
                                     <a href="#">
-                                        <img src="/imgs/icons/twitter-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/twitter-blue.svg" alt="tulin" />
                                     </a>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ const Team = () => {
                         <div className="w-full md:w-1/2 py-5 md:px-5">
                             <div className="px-6 py-10 bg-white shadow rounded hover-up-5 wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".7s">
                                 <div className="flex items-center mb-4">
-                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-4.png" alt="Monst" />
+                                    <img className="h-16 w-16 rounded-full object-cover" src="/imgs/placeholders/avatar-4.png" alt="tulin" />
                                     <div className="pl-4">
                                         <strong className="mt-6 mb-2 text-md">Dany Connolly</strong>
                                         <p className="text-gray-500 text-xs mt-3">Direct-Founder</p>
@@ -106,13 +106,13 @@ const Team = () => {
                                 <p className="leading-loose text-blueGray-400 mb-5">Donec consequat tortor risus, at auctor felis consequat a. Donec quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar. Vestibulum non quam velit.</p>
                                 <div className="flex space-x-2">
                                     <a href="#">
-                                        <img src="/imgs/icons/facebook-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/facebook-blue.svg" alt="tulin" />
                                     </a>
                                     <a href="#">
-                                        <img src="/imgs/icons/instagram-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/instagram-blue.svg" alt="tulin" />
                                     </a>
                                     <a href="#">
-                                        <img src="/imgs/icons/twitter-blue.svg" alt="Monst" />
+                                        <img src="/imgs/icons/twitter-blue.svg" alt="tulin" />
                                     </a>
                                 </div>
                             </div>
@@ -133,82 +133,82 @@ const Team = () => {
                     </div>
                     <div className="flex flex-wrap -mx-3">
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".4s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-1.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-1.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Geraldine Tusoy</strong></p>
                             <p className="text-gray-500 text-xs mb-4">CEO, Co Founders</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-2.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-2.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Clara Kolawole</strong></p>
                             <p className="text-gray-500 text-xs mb-4">CEO-Founder</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-3.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-3.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Chris Fulton</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Project-Manager</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".7s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-4.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-4.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Dany Connolly</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Direct-Founder</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-5.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-5.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Al-amin Bishash</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Director</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-6.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-6.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Sanuya Santa</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Marketing</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-7.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-7.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Steven Job</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Designer</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
 
                         <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated" data-wow-delay=".7s">
-                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-8.png" alt="Monst" />
+                            <img className="h-64 w-64 mx-auto rounded object-cover object-top" src="/imgs/placeholders/avatar-8.png" alt="tulin" />
                             <p className="mt-6"><strong className="text-md">Romario</strong></p>
                             <p className="text-gray-500 text-xs mb-4">Designer</p>
                             <div className="flex py-1 justify-center space-x-2">
-                                <img src="/imgs/icons/facebook.svg" alt="Monst" />
-                                <img src="/imgs/icons/twitter.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook.svg" alt="tulin" />
+                                <img src="/imgs/icons/twitter.svg" alt="tulin" />
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@ const Team = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">E-mail</span>
-                                    <p>contact@monst.com</p>
+                                    <p>contact@tulin.com</p>
                                     <p>pat@example.com</p>
                                 </div>
                             </div>

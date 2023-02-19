@@ -3,8 +3,30 @@ import Layout from '../components/layout/Layout';
 import TextEffect from "../components/elements/TextEffect"
 import Link from "next/link";
 import MapBox from '../components/mapbox';
+import  {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+
+	const form = useRef();
+
+
+	const sendEmail = (e) => {
+	  e.preventDefault();
+  
+    //   service_i1jcckw
+	  emailjs.sendForm('service_i1jcckw', 'template_vjvp4qq', form.current, 'Wp9cGzuiKbDFuuVXl')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log( 'error when send message ---->>>',error.text);
+		});
+	};
+
+
+
+
     return (
         <>
             <Layout>
@@ -78,7 +100,7 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">E-mail</span>
-                                    <p>contact@monst.com</p>
+                                    <p>contact@tulin.com</p>
                                     <p>pat@example.com</p>
                                 </div>
                             </div>
@@ -89,8 +111,8 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">Address</span>
-                                    <p>11567 E Broadview Dr</p>
-                                    <p>Colorado(CO), 80117</p>
+                                    <p>11567 midhat-pasha</p>
+                                    <p>turkey, Al-fatih</p>
                                 </div>
                             </div>
                         </div>
@@ -104,19 +126,35 @@ const Contact = () => {
 
 
                             <div>
-                                <form>
+                                <form  ref={form} onSubmit={sendEmail}>
                                   
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Subject" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+                                        
+                                        type="text" placeholder="Name" name="from"
+                                        // type="text" placeholder="Subject"
+                                        
+                                        />
                                     </div>
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Name" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" 
+
+type="email" placeholder="Email Address" name="email"
+                                        // type="text" placeholder="Name"
+                                        
+                                        />
                                     </div>
-                                    <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
+                                    {/* <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="name@example.com" />
-                                    </div>
+                                    </div> */}
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" placeholder="Message..."></textarea>
+                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" 
+                                       
+                                        name="subject"
+                                        type="text" placeholder="Subject"
+                                        
+                                        
+                                        ></textarea>
                                     </div>
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         {/* <label className="flex px-2 bg-blueGray-50 rounded">

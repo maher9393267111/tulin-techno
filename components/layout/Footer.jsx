@@ -32,7 +32,7 @@ const Footer = () => {
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacts</p>
                             <p className="lg:text-lg text-blueGray-400">(+01) 234 568</p>
-                            <p className="lg:text-lg text-blueGray-400">contact@monst.com</p>
+                            <p className="lg:text-lg text-blueGray-400">contact@tulin.com</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
@@ -44,13 +44,13 @@ const Footer = () => {
                         </p>
                         <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
                             <a className="inline-block px-2" href="https://facebook.com">
-                                <img src="/imgs/icons/facebook-blue.svg" alt="Monst" />
+                                <img src="/imgs/icons/facebook-blue.svg" alt="tulin techno" />
                             </a>
                             <a className="inline-block px-2" href="https://twitter.com">
-                                <img src="/imgs/icons/twitter-blue.svg" alt="Monst" />
+                                <img src="/imgs/icons/twitter-blue.svg" alt="tulin techno" />
                             </a>
                             <a className="inline-block px-2" href="https://www.instagram.com">
-                                <img src="imgs/icons/instagram-blue.svg" alt="Monst" />
+                                <img src="imgs/icons/instagram-blue.svg" alt="tulin techno" />
                             </a>
                         </div>
                     </div>

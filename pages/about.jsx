@@ -355,11 +355,11 @@ const About = () => {
                                         </ul>
                                     </div>
                                     <div className="w-full lg:w-auto mb-4 wow animate__animatedanimated animate__fadeIn animated" data-wow-delay=".5s">
-                                        <h5 className="mb-6 text-lg font-bold font-heading">Blog</h5>
+                                        <h5 className="mb-6 text-lg font-bold font-heading">projects</h5>
                                         <ul className="space-y-3">
-                                            <li><Link href="/blog"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Bussiness</a></Link></li>
-                                            <li><Link href="/blog-2"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Marketing</a></Link></li>
-                                            <li><Link href="/blog-single"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Single</a></Link></li>
+                                            <li><Link href="/projects"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Bussiness</a></Link></li>
+                                            <li><Link href="/projects-2"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Marketing</a></Link></li>
+                                            <li><Link href="/projects-single"><a className="text-lg text-blueGray-400 hover:text-blueGray-500">Single</a></Link></li>
                                         </ul>
                                     </div>
                                 </div>

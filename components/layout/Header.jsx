@@ -158,35 +158,35 @@ src= {"/imgs/site-logos/logo.png"}
 
 
                             <li className="group relative pt-4 pb-4 has-chil">
-                                <Link href="/blog">
+                                <Link href="/projects">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
                                     مشاريعنا
                                     </a>
                                 </Link>
                                 {/* <ul className="drop-down-menu min-w-200">
                                     <li>
-                                        <Link href="/blog">
+                                        <Link href="/projects">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
                                                 Category 1
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-2">
+                                        <Link href="/projects-2">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
                                                 Category 2
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single">
+                                        <Link href="/projects-single">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
                                                 Single 1
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single-2">
+                                        <Link href="/projects-single-2">
                                             <a className="menu-sub-item text-sm text-mainColor-600 hover:text-blueGray-500">
                                                 Single 2
                                             </a>
