@@ -392,21 +392,23 @@ function Home() {
 
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">تصميم مواقع</h3>
-                                    <p className="text-sm text-blueGray-400">
-                                        We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.
+                                    <p className="text-sm text-blueGray-600 font-semibold">
+                                    نسعى دائماً لتقديم أفضل العروض المتميزة في مجال تصميم المواقع الإلكترونية . مواقع تعريفية بسيطة متجاوبة للشركات الصغيرة و الناشئة و مواقع متقدمة للشركات و النشاطات التجارية الرائدة في الأعمال المتقدمة و أيضاً مواقع متخصصة في كافة المجالات العقارية و السياحية و الخدمية
                                     
                                     </p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                <div className="border h-full border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                     <div className="text-blue-500 mx-auto mb-4">
                                         <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                         </svg>
                                     </div>
-                                    <h3 className="mb-2 font-bold font-heading">Web Development</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <h3 className="mb-2 font-bold font-heading">برمجيات حديثة</h3>
+                                    <p className="text-sm text-blueGray-600 font-semibold">
+                                    برمجيات متطورة و حديثة لنضمن لك أفضل النتائج و سرعة في تحميل الموقع مما يحسن من جودة الموقع لدى محركات البحث و زيادة الوصول إلى عملاء أكثر			
+                                        </p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -416,8 +418,11 @@ function Home() {
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                                         </svg>
                                     </div>
-                                    <h3 className="mb-2 font-bold font-heading">App Development</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <h3 className="mb-2 font-bold font-heading">تصاميم عصرية</h3>
+                                    <p className="text-sm text-blueGray-600  font-semibold">
+                                    برمجيات متطورة و حديثة لنضمن لك أفضل النتائج و سرعة في تحميل الموقع مما يحسن من جودة الموقع لدى محركات البحث و زيادة الوصول إلى عملاء أكثر		
+                                        
+                                        </p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -428,8 +433,11 @@ function Home() {
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
                                         </svg>
                                     </div>
-                                    <h3 className="mb-2 font-bold font-heading">Digital Marketing</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <h3 className="mb-2 font-bold font-heading">كتابة محتوى</h3>
+                                    <p className="text-sm text-blueGray-600 font-semibold">
+                                        
+						كتابة محتوى و مقالات وفق شروط السيو المتبعة و مقالات حصرية لموقعك التجاري مما يؤدي إلى تحسين أرشفة الموقع في غوغل و زيادة شعبية الموقع					
+                                        </p>
                                 </div>
                             </div>
 
