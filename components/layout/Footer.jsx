@@ -39,7 +39,7 @@ const Footer = () => {
                         <p className="text-sm text-blueGray-400">
                             &copy; 2022. All rights reserved. Designed by{" "}
                             <a className="text-mainColor-600" href="https://alithemes.com" target="_blank">
-                                Alithemes.com
+                            Tulin Technology
                             </a>
                         </p>
                         <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">

@@ -4,6 +4,7 @@ import Layout from "../components/layout/Layout"
 import Slider1 from "../components/slider/Slider1"
 import Slider2 from "../components/slider/Slider2"
 import Slider3 from "../components/slider/Slider3"
+import SliderTechno from "../components/slider/slider-technologes"
 import Link from "next/link"
 
 function Home() {
@@ -41,10 +42,10 @@ function Home() {
                             </div>
                             <div>
                                 <a className="btn-primary btn-transparent py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-up-2" href="#key-features">
-                                    Key Features
+                                خدمات نقدمها
                                 </a>
                                 <a className="btn-white btn-main-color wow animate__animated animate__fadeIn hover-up-2" data-wow-delay=".3s" href="#how-we-work">
-                                    How We Work?
+                                الخطط و الإستراجية
                                 </a>
                             </div>
                         </div>
@@ -341,7 +342,7 @@ function Home() {
                             "/imgs/elements/macbook.png"
                             
                             alt="Monst" />
-                            <div className="absolute" style={{ top: "5.8%", left: "14.6%", width: "72.8%", height: "76.7%" }}>
+                            <div className="absolute" style={{ top: "5.8%", left: "14.6%", width: "72.8%", height: "76.7%" , overflow:'hidden' }}>
                                 <div className="relative w-full">
                                     <div className="carausel-fade-2 slick-carausel dot-style-1" id="carausel-fade-2-1">
                                         <Slider3 />
@@ -351,6 +352,9 @@ function Home() {
                         </div>
                     </div>
                 </section>
+
+
+
 
 
 
@@ -501,10 +505,50 @@ function Home() {
 
 
 
+  {/* Technologies Slider */}
+
+  <div className=" container">
+
+<div className="max-w-lg mx-auto mb-8 text-center">
+                            <span className="inline-block text-xs py-1 px-3 text-blue-700 font-semibold bg-blue-100 rounded-xl wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                              التقنيات  
+                            </span>
+                            <h2 className=" text-3xl md:text-4xl text-blueGray-900 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay="0">
+                                التقنيات المستخدمة في عملنا
+                            </h2>
+                          
+                        </div>
+
+
+  <section className="py-4 md:py-16">
+                    <div className="container px-4 mx-auto">
+                        <div className="flex flex-wrap -mx-3">
+                            {/* <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
+                                <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
+                                    <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                        Simple Solution for <span className="text-mainColor-600">Complex</span> Connections
+                                    </h2>
+                                    <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.
+                                    </p>
+                                </div>
+                            </div> */}
+                            <div className="w-full lg:w-full flex flex-wrap">
+                                <div className="relative w-full">
+                                    <div className="carausel-2-columns slick-carausel" id="carausel-2-columns-1">
+                                        <SliderTechno />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 
 
+
+</div>
 
 
 
@@ -515,13 +559,15 @@ function Home() {
                     <div className="container px-4 mx-auto">
                         <div className="text-center mb-16">
                             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                <span>Start saving time today and</span>
-                                <span className="text-mainColor-600"> choose </span>
-                                <span>your best plan</span>
+                                <span>  ابدأ بختيار باقتك</span>
+                                <span className="text-mainColor-60">  لاتضيع وقتك</span>
+                                <span>
+
+                                </span>
                             </h2>
-                            <p className="max-w-sm mx-auto text-lg text-blueGray-400 wow animate__animated animate__fadeInDown" data-wow-delay=".5s">
+                            {/* <p className="max-w-sm mx-auto text-lg text-blueGray-400 wow animate__animated animate__fadeInDown" data-wow-delay=".5s">
                                 Best for freelance developers who need to save their time
-                            </p>
+                            </p> */}
                         </div>
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
@@ -659,34 +705,11 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
-                    <div className="container px-4 mx-auto">
-                        <div className="relative py-20 px-4 lg:p-20">
-                            <div className="max-w-lg mx-auto text-center">
-                                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span>Subscribe now to</span>
-                                    <span className="text-mainColor-600"> Our Newsletter </span>
-                                    <span>and get the Coupon code.</span>
-                                </h2>
-                                <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    All your information is completely confidential
-                                </p>
-                                <div className="p-4 bg-white rounded-lg flex flex-wrap max-w-md mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blueGray-100 rounded">
-                                        <svg className="h-6 w-6 my-auto text-blueGray-500" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
-                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                                        </svg>
-                                        <input className="w-full pl-3 py-4 text-xs text-blueGray-400 font-semibold leading-none bg-blueGray-100 outline-none" type="text" placeholder="Type your e-mail" />
-                                    </div>
-                                    <button className="w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded" type="submit">
-                                        Sign Up
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+
+
+
+            
             </Layout>
         </>
     );

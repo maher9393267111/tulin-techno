@@ -7,44 +7,43 @@ const Contact = () => {
     return (
         <>
             <Layout>
-                <section className="relative -mt-24 pt-24">
-                    <div className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-blueGray-100 z-0" style={{ "z-index": "-1" }}></div>
+              
+
+{/* HEADER  */}
+
+<section  dir='rtl' className="-mt-24 pt-40 pb-12 services-style bg-[dimgray]">
                     <div className="container">
-                        <div className="flex flex-wrap items-center -mx-3">
-                            <div className="w-full lg:w-1/2 px-3">
-                                <div className="py-12">
-                                    <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                                        <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                                            Committed to <span className="text-blue-500">People</span>, and the future
-                                        </h2>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
-                                            <span className="typewrite d-inline text-brand">
-                                                <TextEffect text1="Web Agency" text2="Social Marketing" />
-                                            </span>
-                                        </p>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p>
-                                    </div>
-                                    <div className="text-center lg:text-left">
-                                        <Link href="/about">
-                                            <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animatedanimated animate__fadeIn">About Us</a>
-                                        </Link>
-                                        <Link href="/services">
-                                            <a className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                                Our Services
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
-                                <div className="flex items-center justify-center">
-                                    <img className="lg:max-w-lg" src="/imgs/illustrations/team.svg" alt="Monst" />
-                                </div>
-                            </div>
-                        </div>
+                        <h1 className="text-2xl text-white lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">
+                    
+                        تواصل معنا
+                        
+                        </h1>
+                        <ul className="flex text-white text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-blue-500 text-white">
+                                    الرئيسية
+                                </a>
+                                <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </li>
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-blue-500 text-white">
+                                   تواصل معنا
+                                </a>
+                                <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </li>
+                            {/* <li className="inline-flex items-center text-white">
+                                <span>Web Development</span>
+                            </li> */}
+                        </ul>
                     </div>
                 </section>
+
+
+
                 <section className="py-20">
                     <div className="container">
                         <div className="max-w-2xl mx-auto text-center">
@@ -58,17 +57,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <form>
-                                    <div className="mb-4 text-sm wow animate__animatedanimated animate__fadeIn" data-wow-delay=".5s">
-                                        <span className="mr-4 font-semibold">Departament:</span>
-                                        <label className="mr-4">
-                                            <input className="mr-1" type="radio" name="department" value="1" checked="" />
-                                            <span>Support</span>
-                                        </label>
-                                        <label>
-                                            <input className="mr-1" type="radio" name="department" value="2" />
-                                            <span>Sales</span>
-                                        </label>
-                                    </div>
+                                  
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Subject" />
                                     </div>
@@ -82,10 +71,10 @@ const Contact = () => {
                                         <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" placeholder="Message..."></textarea>
                                     </div>
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <label className="flex px-2 bg-blueGray-50 rounded">
+                                        {/* <label className="flex px-2 bg-blueGray-50 rounded">
                                             <input className="hidden" type="file" name="Choose file" />
                                             <span className="my-1 ml-auto px-4 py-3 text-xs text-white font-semibold leading-none bg-blueGray-500 hover:bg-blueGray-600 rounded cursor-pointer"> Browse</span>
-                                        </label>
+                                        </label> */}
                                     </div>
                                     <div className="flex justify-between items-center wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         <label>

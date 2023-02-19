@@ -2643,3 +2643,19 @@ color: black;
 	background-image: url("https://images.unsplash.com/photo-1622050756792-5b1180bbb873?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 	object-fit: cover;
   }
+
+
+  .img-header{
+	width: 72px !important;
+    height: 54px !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 67%;
+  }
+
+
+  .slider-tech-1 {
+
+object-position: right center ;
+
+  }
