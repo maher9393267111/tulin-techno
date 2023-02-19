@@ -425,8 +425,8 @@ function Home() {
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">تصاميم عصرية</h3>
                                     <p className="text-sm text-blueGray-600  font-semibold">
-                                    برمجيات متطورة و حديثة لنضمن لك أفضل النتائج و سرعة في تحميل الموقع مما يحسن من جودة الموقع لدى محركات البحث و زيادة الوصول إلى عملاء أكثر		
-                                        
+                                    نتميز بالتصميمات البسيطة العصرية و الاحترافية مع تداخل الافكار المختلفه التى تعبر عنك و عن هويتك و هوية ما تعلن عنه
+                                    و هوية ما تعلن عنه
                                         </p>
                                 </div>
                             </div>
@@ -451,9 +451,9 @@ function Home() {
                        
                         </div>
                         <div className="text-center">
-                            <Link href="/testimonials">
+                            <Link href="/">
                                 <a href="/testimonials" className="inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    Show more Testimonials
+                                    Show more 
                                 </a>
                             </Link>
                         </div>
