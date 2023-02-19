@@ -2659,3 +2659,27 @@ color: black;
 object-position: right center ;
 
   }
+
+
+
+
+  /* MAP  */
+
+
+  .map-section {
+	position: relative;
+  }
+
+
+  .map-canvas {
+	height: 600px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #f9f9f9;
+  }
+
+
+  .map-canvas iframe {
+	width: 100%;
+	height: 100%;
+  }/*# sourceMappingURL=map.css.map */
