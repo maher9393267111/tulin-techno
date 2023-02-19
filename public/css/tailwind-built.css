@@ -2614,3 +2614,23 @@ li.menu-item-has-children.active .menu-expand {
 	height: 382px !important;
 	object-fit: cover;
 }
+
+
+  ul li a {
+
+color: black;
+
+  }
+
+
+  .services-style{
+
+	background-color: dimgray;
+	background-image: url("https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+	object-fit: cover;
+  }
+
+
+  .mr-serv{
+	margin-right: 38px ;
+  }

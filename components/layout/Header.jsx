@@ -20,15 +20,23 @@ const Header = ({handleHidden}) => {
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <Link href="/">
                             <a className="text-3xl font-semibold leading-none">
+
+
+
+
                                 {scroll ? 
+
                                     <Image
-                                        src={"/imgs/logos/logo-jungmoon.png"}
+                                    className=" object-cover"
+                                        src= {"/imgs/site-logos/logo.png"}
+                                        // {"/imgs/logos/logo-jungmoon.png"}
                                         width={200}
                                         height={40}
                                     />
                                     :
                                     <Image
-                                        src={"/imgs/logos/logo-jungmoon-white.png"}
+                                          src= {"/imgs/site-logos/logo.png"}
+                                        // {"/imgs/logos/logo-jungmoon-white.png"}
                                         width={200}
                                         height={40}
                                     />
