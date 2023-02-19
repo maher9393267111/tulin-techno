@@ -75,7 +75,7 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services">
-                                            <a>Event</a>
+                                            <a>تصميم مواقع ui/ux</a>
                                         </Link>
                                     </h1>
                                     <p className="mt-2 text-xs text-gray-500">Oxford university</p>
