@@ -21,7 +21,7 @@ export default function PriceCards() {
                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                     <img className="h-20 mb-6 mx-auto" src="/imgs/icons/startup.svg" alt="Monst" />
                     <h3 className="mb-2 text-4xl font-bold font-heading">الخطة الاقتصادية</h3>
-                    <span className="text-4xl text-mainColor-600 font-bold font-heading">$45.99</span>
+                    <span className="text-4xl text-mainColor-600 font-bold font-heading">$199.99</span>
                     <p className="mt-2 mb-8 text-blueGray-400">موقع بسيط متجاوب</p>
                     <div className="flex flex-col items-center mb-8">
                         <ul className="text-blueGray-400">
@@ -58,7 +58,11 @@ export default function PriceCards() {
                                 <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
-                                <span> هوست 20 جيجا SSD</span>
+                                <span> 
+                               مساحة 30غيغا SSD
+                                      
+
+                                </span>
                             </li>
 
                         </ul>
@@ -77,7 +81,7 @@ export default function PriceCards() {
                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center text-white bg-mainColor rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".4s">
                     <img className="h-20 mb-6 mx-auto" src="/imgs/icons/agency.svg" alt="Monst" />
                     <h3 className="mb-2 text-4xl font-bold font-heading">الخطة المتقدمة</h3>
-                    <span className="text-4xl font-bold font-heading">$65.99</span>
+                    <span className="text-4xl font-bold font-heading">$250.99</span>
                     <p className="mt-2 mb-8">موقع متكامل متجاوب</p>
                     <div className="flex flex-col items-center mb-8">
                         <ul>
@@ -143,7 +147,7 @@ export default function PriceCards() {
                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                     <img className="h-20 mb-6 mx-auto" src="/imgs/icons/enterprise.svg" alt="Monst" />
                     <h3 className="mb-2 text-4xl font-bold font-heading">الخطة الذهبية</h3>
-                    <span className="text-4xl text-mainColor-600 font-bold font-heading">$85.99</span>
+                    <span className="text-4xl text-mainColor-600 font-bold font-heading">$350.99</span>
                     <p className="mt-2 mb-8 text-blueGray-400">موقع ومتجر إلكتروني</p>
                     <div className="flex flex-col items-center mb-8">
                         <ul className="text-blueGray-400">
