@@ -197,7 +197,7 @@ src= {"/imgs/site-logos/logo.png"}
                             <li className="pt-4 pb-4">
                                 <Link href="/contact">
                                     <a className={scroll ? "text-sm font-semibold hover:text-blueGray-500 text-mainColor-600" : "text-sm font-semibold text-whiteColor-600 hover:text-blueGray-500"}>
-                                        Contact
+                                        تواصل معنا
                                     </a>
                                 </Link>
                             </li>

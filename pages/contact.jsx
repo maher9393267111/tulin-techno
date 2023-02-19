@@ -5,24 +5,11 @@ import Link from "next/link";
 import MapBox from '../components/mapbox';
 import  {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import ContactForm from '../components/contactForm';
 
 const Contact = () => {
 
 
-	const form = useRef();
-
-
-	const sendEmail = (e) => {
-	  e.preventDefault();
-  
-    //   service_i1jcckw
-	  emailjs.sendForm('service_i1jcckw', 'template_vjvp4qq', form.current, 'Wp9cGzuiKbDFuuVXl')
-		.then((result) => {
-			console.log(result.text);
-		}, (error) => {
-			console.log( 'error when send message ---->>>',error.text);
-		});
-	};
 
 
 
@@ -70,14 +57,20 @@ const Contact = () => {
                 <section className="py-20">
                     <div className="container">
                         <div className="max-w-2xl mx-auto text-center">
-                            <div className="max-w-md mb-8 mx-auto">
+                        
+
+                        <div className="max-w-md mb-8 mx-auto">
                                 <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn" data-wow-delay=".1s">
-                                    Contact Us
+                                 تواصل معنا
                                 </span>
                                 <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn" data-wow-delay=".s">
-                                    We will <span className="text-blue-500">be glad</span> to hear from you!
+                                    سنكون سعداء <span className="text-blue-500">بتواصلكم معنا</span> 
+                                    <br/>
+                                    وسماع آرائكم
                                 </h2>
                             </div>
+
+
 
 
 {/* // Details to call us  */}
@@ -125,55 +118,11 @@ const Contact = () => {
 
 
 
-                            <div>
-                                <form  ref={form} onSubmit={sendEmail}>
-                                  
-                                    <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
-                                        
-                                        type="text" placeholder="Name" name="from"
-                                        // type="text" placeholder="Subject"
-                                        
-                                        />
-                                    </div>
-                                    <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" 
+                       <ContactForm/>
 
-type="email" placeholder="Email Address" name="email"
-                                        // type="text" placeholder="Name"
-                                    
-                                        
-                                        />
-                                    </div>
-                                    {/* <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="name@example.com" />
-                                    </div> */}
-                                    <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" 
-                                       
-                                        name="message"
-                                        type="text" placeholder="Subject"
-                                        
-                                        
-                                        ></textarea>
-                                    </div>
-                                    <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        {/* <label className="flex px-2 bg-blueGray-50 rounded">
-                                            <input className="hidden" type="file" name="Choose file" />
-                                            <span className="my-1 ml-auto px-4 py-3 text-xs text-white font-semibold leading-none bg-blueGray-500 hover:bg-blueGray-600 rounded cursor-pointer"> Browse</span>
-                                        </label> */}
-                                    </div>
-                                    <div className="flex justify-between items-center wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                        <label>
-                                            <input className="mr-1" type="checkbox" name="terms" value="1" />
-                                            <span className="text-sm font-semibold">I agree to terms and conditions.</span>
-                                        </label>
-                                        <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded" type="submit">
-                                            Submit
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
+
+
+
                         </div>
                     </div>
                 </section>
