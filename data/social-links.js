@@ -1,6 +1,6 @@
 export const companyName = 'Tulin Technology';
 export const companyPhone = '(647)-762-3958'
-export const companyLadaPhone = '00905012444888';
+export const companyLadaPhone = '++905012444888';
 export const hrefLinkPhone = 'tel:+' + companyLadaPhone;
 export const companyEmail = 'gomemahero@gmail.com';
 export const hrefLinkEmail = 'mailto:' + companyEmail;
