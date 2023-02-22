@@ -19,7 +19,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
               <link
           rel="icon"
-          href="/imgs/site-logos/logo.png"
+          href="/imgs/site-logos/orgina-logo.jpeg"
           
          
         />
