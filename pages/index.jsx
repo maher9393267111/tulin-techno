@@ -21,7 +21,7 @@ function Home() {
                             <div className="max-w-2xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn" style={{ color: "#fff" }}>
                                 {/* تولين تكنولوجي */}
-                                Tulin Technology
+                                Tuline Technology
                                   
                                    <br />
                                   {/* <span>
