@@ -11,7 +11,7 @@ const Blog = () => {
             <Layout>
 
 
-            <section  dir='rt' className="-mt-24 pt-40 pb-12 projects-style bg-[dimgray]">
+            <section  dir='rt' className="-mt-banner pt-40 pb-12 projects-style bg-[dimgray]">
                     <div className="container">
                         <h1 className="text-2xl text-white lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">    من أعمالنا  </h1>
                         <ul className="flex text-white text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
