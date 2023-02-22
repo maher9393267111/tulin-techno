@@ -174,7 +174,7 @@ function Home() {
 
 <div className=" text-3xl font-bold text-center my-6">
 
-<h2>الخطط و الإستراتجية لنجاح موقعك</h2>
+<h2>الخطط و الإستراتيجية لنجاح موقعك</h2>
 
 </div>
 
