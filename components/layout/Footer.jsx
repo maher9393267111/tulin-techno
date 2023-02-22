@@ -83,7 +83,7 @@ const Footer = () => {
                         <p className="text-sm text-blueGray-600     font-semibold">
                             &copy; كل الحقوق محفوظة {" "}
                             <a className="text-mainColor-600" href="https://alithemes.com" target="_blank">
-                                Tulin Technology
+                                Tuline Technology
                             </a>
                         </p>
                         <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
