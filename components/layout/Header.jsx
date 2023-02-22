@@ -28,18 +28,14 @@ const Header = ({handleHidden}) => {
 
 <img
 className="img-header"
-src= {"/imgs/site-logos/logo.png"}
-// {"/imgs/logos/logo-jungmoon-white.png"}
-// width={200}
-// height={200}
+src= {"/imgs/site-logos/orgina-logo.jpeg"}
+
 />
                                     :
                                     <img
                                     className=" img-header"
-                                          src= {"/imgs/site-logos/logo.png"}
-                                        // {"/imgs/logos/logo-jungmoon-white.png"}
-                                        // width={200}
-                                        // height={40}
+                                          src= {"/imgs/site-logos/orgina-logo.jpeg"}
+                                     
                                     />
                                 }
                             </a>

@@ -12,12 +12,16 @@ function Home() {
     return (
         <>
             <Layout  dir="rtl">
-                <section className="bg-auto bg-top bg-no-repeat -mt-24 pt-24 main-iamge" style={{ backgroundImage: "url('/imgs/backgrounds/main-background-image.png')" }}>
+                <section className="bg-auto bg-top bg-no-repeat     
+                 -mt-banner
+                
+                pt-24 main-iamge" style={{ backgroundImage: "url('/imgs/backgrounds/main-background-image.png')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn" style={{ color: "#fff" }}>
-                                تولين تكنولوجي
+                                {/* تولين تكنولوجي */}
+                                Tulin Technology
                                   
                                    <br />
                                   {/* <span>
@@ -170,7 +174,7 @@ function Home() {
 
 <div className=" text-3xl font-bold text-center my-6">
 
-<h2>الخطط و الإستراجية لنجاح موقعك</h2>
+<h2>الخطط و الإستراتجية لنجاح موقعك</h2>
 
 </div>
 

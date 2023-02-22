@@ -51,25 +51,30 @@ const Footer = () => {
                                     /> */}
 
 
-<img src="/imgs/site-logos/logo.png" className=" logo-footer" alt="" />
+<img src="/imgs/site-logos/orgina-logo.jpeg" className=" logo-footer" alt="" />
 
 
                                 </a>
                             </Link>
                         </div>
-                        <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
+                        <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
                             {/* <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-600   font-semibold leading-relaxed">
                                 نساعدك <strong>للوصول لأهدافك</strong> بأقصى سرعة 
                             </p> */}
                         </div>
-                        <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
+                        <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">مقر الشركة</p>
-                            <p className="lg:text-lg text-blueGray-600">359 Al-fatih / istanbul</p>
+                            <p className="lg:text-lg text-blueGray-600">
+                                
+                                {/* 359 Al-fatih / istanbul */}
+                                KARAGÜMRÜK MAH. SOFALI ÇEŞME CADDESI, ARPA EMINI KÒPRUSU SOKAK, 4A, Istanbul, Turkey
+                            
+                            </p>
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">تواصل معنا</p>
                             <p className="lg:text-lg text-blueGray-600">(+01) 234 568</p>
-                            <p className="lg:text-lg text-blueGray-600">contact@tulin.com</p>
+                            <p className="lg:text-lg text-blueGray-600">info@tuline.tech</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
