@@ -73,7 +73,7 @@ const Footer = () => {
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">تواصل معنا</p>
-                            <p className="lg:text-lg text-blueGray-600">(+01) 234 568</p>
+                            <p className="lg:text-lg text-blueGray-600">+905 012414888</p>
                             <p className="lg:text-lg text-blueGray-600">info@tuline.tech</p>
                         </div>
                     </div>

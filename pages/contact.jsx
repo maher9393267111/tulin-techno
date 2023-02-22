@@ -84,8 +84,8 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">Phone</span>
-                                    <p>+ 48 654-430-309</p>
-                                    <p>+ 1 6532-430-309</p>
+                                    <p>+905 012414888</p>
+                                    {/* <p>+ 1 6532-430-309</p> */}
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
@@ -94,8 +94,8 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">E-mail</span>
-                                    <p>contact@tulin.com</p>
-                                    <p>pat@example.com</p>
+                                    <p>info@tuline.tech</p>
+                                    <p>info@tulineturizm.net</p>
                                 </div>
                             </div>
                             <div className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
@@ -105,8 +105,14 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">Address</span>
-                                    <p>11567 midhat-pasha</p>
-                                    <p>turkey, Al-fatih</p>
+                                    <p>
+                                    KARAGÜMRÜK MAH. SOFALI ÇEŞME CADDESI, ARPA EMINI KÒPRUSU SOKAK, 4A
+
+
+                                    </p>
+                                    <p>
+                                    Istanbul, Turkey
+                                        </p>
                                 </div>
                             </div>
                         </div>
