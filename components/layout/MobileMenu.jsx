@@ -27,7 +27,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     <div className="flex items-center mb-8">
                         <Link href="#">
                             <a className="mr-auto text-3xl font-semibold leading-none">
-                                <img className="h-10" src="/imgs/site-logos/logo.png" alt="tilin technology logo" />
+                                <img className="h-10" src="/imgs/site-logos/orgina-logo.jpeg" alt="tilin technology logo" />
                             </a>
                         </Link>
                         <button className="navbar-close" onClick={handleRemove}>

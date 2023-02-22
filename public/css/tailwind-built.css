@@ -2645,13 +2645,9 @@ color: black;
   }
 
 
-  .img-header{
-	width: 100px !important;
-    height: 100px !important;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-radius: 67%;
-  }
+ 
+
+
 
 
   .slider-tech-1 {
@@ -2701,3 +2697,29 @@ object-position: right center ;
   .-mt-banner{
 	margin-top: -140px;
   }
+
+
+
+  .img-header{
+	width: 88px !important;
+    height: 88px !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 67%;
+  }
+
+
+  @media (max-width: 700px){
+	.img-header{
+		width: 66px !important;
+		height: 66px !important;
+		-o-object-fit: cover;
+		object-fit: cover;
+		border-radius: 67%;
+	  }
+	
+	
+	}
+
+
+
