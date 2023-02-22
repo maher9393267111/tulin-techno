@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Tulin Techmology Site</title>
+                <title>Tuline Techmology Site</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
                     rel="preconnect"
