@@ -2705,7 +2705,7 @@ object-position: right center ;
     height: 88px !important;
     -o-object-fit: cover;
     object-fit: cover;
-    border-radius: 67%;
+    border-radius: 22%;
   }
 
 
@@ -2715,7 +2715,7 @@ object-position: right center ;
 		height: 66px !important;
 		-o-object-fit: cover;
 		object-fit: cover;
-		border-radius: 67%;
+		border-radius: 22%;
 	  }
 	
 	

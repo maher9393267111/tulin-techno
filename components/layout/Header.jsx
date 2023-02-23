@@ -28,7 +28,7 @@ const Header = ({handleHidden}) => {
 
 <img
 className="img-header"
-src= {"/imgs/site-logos/orgina-logo.jpeg"}
+src= {"/imgs/site-logos/logo222.jpeg"}
 
 />
                                     :
