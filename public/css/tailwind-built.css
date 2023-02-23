@@ -37,6 +37,11 @@ body {
 	/* font-family:'Droid Arabic Naskh', serif; */
 	font-family: 'Arabic Typesetting', Verdana, Arial, Helvetica, sans-serif;
 	 line-height:60px;
+	 
+	 margin-left: -15px;
+	 overflow-x: hidden;
+
+
 }
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
