@@ -24,6 +24,7 @@ const InstagramLink = <a className="inline-block px-2" href={hrefLinkEmail}>
 const whatsapp = <a className="inline-block w-6 h-6" href={whatsappLink}>
     
 
+ 
 
 <img src="imgs/icons/icons8-whatsapp-40.png" alt="tulin techno" />
 </a>;
@@ -35,6 +36,12 @@ const whatsapp = <a className="inline-block w-6 h-6" href={whatsappLink}>
 
 
 const Footer = () => {
+
+    var message = 'hello world'
+    var url = `https://wa.me/263719509816?text=${JSON.stringify({message})}&app_absent=0`
+  
+
+
     return (
         <>
             <section className="py-20">
@@ -103,6 +110,8 @@ const Footer = () => {
 
                             {companyEmailALink}
                             { whatsapp}
+
+                            <a href={url}>send</a>
 
 
 
