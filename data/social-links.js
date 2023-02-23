@@ -1,6 +1,6 @@
 export const companyName = 'Tuline Technology';
 export const companyPhone = '(647)-762-3958'
-export const companyLadaPhone = '++905012444888';
+export const companyLadaPhone = '+90 501 244 48 88';
 export const hrefLinkPhone = 'tel:+' + companyLadaPhone;
 export const companyEmail = 'info@tuline.tech';
 export const hrefLinkEmail = 'mailto:' + companyEmail;

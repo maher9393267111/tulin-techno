@@ -382,7 +382,7 @@ function Home() {
                             نسعى دائماً لتقديم أفضل العروض المتميزة في مجال تصميم المواقع الإلكترونية 
                             </p>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap justify-center -mx-3 mb-6">
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="border h-full border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="text-blue-500 mx-auto mb-4">
@@ -449,6 +449,74 @@ function Home() {
                                         </p>
                                 </div>
                             </div>
+
+
+
+{/* ------newwww */}
+
+<div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border h-full border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+
+
+
+
+
+
+
+                              
+
+
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading" >
+                                    برمجة نظام محاسبي
+                                    </h3>
+                                    <p className="text-sm text-blueGray-600 font-semibold">
+                                    برنامج محاسبة احترافي مناسب لجميع انواع الأعمال التجارية والمخازن الكبيرة، قاعدة بيانات ضخمة، مع تعديلات برمجية ملائمة بشكل خاص لكل منشأة تجارية.
+                                    
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border h-full border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+
+
+
+
+
+
+
+                              
+
+
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading">
+                                    تطبيقات الجوال Android -ios
+                                    
+                                    </h3>
+                                    <p className="text-sm text-blueGray-600 font-semibold">
+                                    برمجة احترافية خاصة حسب الطلب، مع الربط بالموقع الالكتروني الخاص بالعميل- 
+تصميم برمجي ملائم لحاجات العميل شكلا ومضمونا.
+                                    
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+
 
 
 

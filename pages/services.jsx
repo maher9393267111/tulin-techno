@@ -79,12 +79,33 @@ const Services = () => {
                                                 <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">1</span>
                                                
                                             </div>
-                                            <div>
-                                                <h3 className="mb-2 text-xl font-semibold font-heading">غرافيك ديزاين</h3>
+                                            <div  >
+                                                <h3   className="mb-2    lg:mr-4 mr-2 text-xl font-semibold font-heading">
+
+                                                تصميم إعلاني
+                                                <br/>
+                                                
+                                           
+                                                </h3>
+
+<div>
+
+
                                                 <p className="text-blueGray-600  font-semibold leading-loose text-sm mr-serv">
-                                                التصميم الجرافيكي هو فن توضيح الأفكار عن طريق رسومات وتصاميم فريدة ومتنوعة تجذب المشاهد وترسخ في الذهن مما يساعدك في تحقيق مبتغاك من تكوين هوية بصرية كاملة عن منتجك او موقعك وتقربك من جمهورك في وسائل التواصل الإجتماعي 
+                                                تصميم هوية بصرية كاملة ( شعار- كرت عمل- نشرات اعلانية..) 
+                                                <br/>
+تصميم منشورات وغلاف وسائل التواصل الاجتماعي بجميع القياسات المطلوبة 
+<br/>
+تصميم لوحات اعلانية خارجية بقياسات كبيرة
+<br/>
+وكتفة الاعمال المتعلقة بالاعلانات والتسويق بمايتناسب مع متطلبات المؤسسة التجارية وألوان الهوية البصرية وذوق العميل.
                                                 
                                                 </p>
+
+                                                </div>
+
+
+
                                             </div>
                                         </div>
                                         <div className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
