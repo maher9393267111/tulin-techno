@@ -111,7 +111,7 @@ const Footer = () => {
                             {companyEmailALink}
                             { whatsapp}
 
-                            <a href={url}>send</a>
+                    
 
 
 
