@@ -6,7 +6,7 @@ export default function PriceCards() {
     <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                <span>  ابدأ بختيار باقتك</span>
+                <span>  ابدأ باختيار باقتك</span>
                 <span className="text-mainColor-60">  لاتضيع وقتك</span>
                 <span>
 
