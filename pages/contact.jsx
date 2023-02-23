@@ -84,7 +84,7 @@ const Contact = () => {
                                 </svg>
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">Phone</span>
-                                    <p>+905 012414888</p>
+                                    <p>+90 501 244 48 88</p>
                                     {/* <p>+ 1 6532-430-309</p> */}
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                                 <div className="leading-relaxed">
                                     <span className="text-sm text-blueGray-400">E-mail</span>
                                     <p>info@tuline.tech</p>
-                                    <p>info@tulineturizm.net</p>
+                                    {/* <p>info@tulineturizm.net</p> */}
                                 </div>
                             </div>
                             <div className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
