@@ -75,7 +75,7 @@ const Footer = () => {
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">تواصل معنا</p>
                             <p className="lg:text-lg text-blueGray-600">+90 501 244 48 88</p>
                             <p className="lg:text-lg text-blueGray-600">info@tuline.tech</p>
-                            <p className="lg:text-lg text-blueGray-600"> info@tulineturizm.net</p>
+                            {/* <p className="lg:text-lg text-blueGray-600"> info@tulineturizm.net</p> */}
                            
                         </div>
                     </div>
