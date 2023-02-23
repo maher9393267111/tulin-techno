@@ -144,6 +144,61 @@ const Services = () => {
                                                 </p>
                                             </div>
                                         </div>
+
+{/* aDDDD   */}
+
+
+<div className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+                                            <div className="w-8 mb-5 text-blue-500">
+                                                <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">5</span>
+                                            </div>
+                                            <div>
+                                                <h3 className="mb-2 text-xl font-semibold font-heading">
+
+
+                                                برمجة نظام محاسبي
+                                                </h3>
+                                                <p className="text-blueGray-600   font-semibold mr-serv leading-loose text-sm">
+                            
+                                                برنامج محاسبة احترافي مناسب لجميع انواع الأعمال التجارية والمخازن الكبيرة، قاعدة بيانات ضخمة، مع تعديلات برمجية ملائمة بشكل خاص لكل منشأة تجارية.
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+                                            <div className="w-8 mb-5 text-blue-500">
+                                                <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">6</span>
+                                            </div>
+                                            <div>
+                                                <h3 className="mb-2 text-xl font-semibold font-heading">
+
+
+                                                تطبيقات الجوال Android -ios
+                                                </h3>
+                                                <p className="text-blueGray-600   font-semibold mr-serv leading-loose text-sm">
+                                                برمجة احترافية خاصة حسب الطلب، مع الربط بالموقع الالكتروني الخاص بالعميل- 
+تصميم برمجي ملائم لحاجات العميل شكلا ومضمونا.
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     </div>
                                 </div>
                             </div>
