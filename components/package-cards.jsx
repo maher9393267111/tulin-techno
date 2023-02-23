@@ -1,5 +1,9 @@
 import React from 'react'
 
+import {whatsappLink} from '../data/social-links';
+
+const whatsapp = <a className="inline-block w-6 h-6" href={whatsappLink}></a>
+
 export default function PriceCards() {
   return (
     <section className="py-20 xl:bg-contain bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
@@ -71,7 +75,9 @@ export default function PriceCards() {
                         {/* <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 rounded default-btn" href="#">
                             Start Free Trial
                         </a> */}
-                         <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded default-box-border" href="#">
+                         <a
+                         href={whatsappLink}
+                         className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded default-box-border" >
                             احجز الآن
                         </a>
                     </div>
@@ -137,7 +143,12 @@ export default function PriceCards() {
                         {/* <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-mainColor-600 font-semibold leading-none bg-white hover:bg-blueGray-50 rounded" href="#">
                             Start Free Trial
                         </a> */}
-                    <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500  bg-white hover:text-white hover:bg-blue-500 rounded default-box-border" href="#">
+                    <a 
+                    href={whatsappLink}
+                    
+                    className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500  bg-white hover:text-white hover:bg-blue-500 rounded default-box-border" 
+                    
+                    >
                             احجز الآن
                         </a>
                     </div>
@@ -206,7 +217,10 @@ export default function PriceCards() {
                             Start Free Trial
                         </a> */}
                      
-                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded default-box-border" href="#">
+                        <a
+                        href={whatsappLink}
+                        
+                        className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-mainColor-600 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded default-box-border">
                             احجز الآن
                         </a>
                     </div>
