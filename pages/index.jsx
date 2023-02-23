@@ -11,6 +11,7 @@ import PackageCards from '../components/package-cards'
 function Home() {
     return (
         <>
+        
             <Layout  dir="rtl">
                 <section className="bg-auto bg-top bg-no-repeat     
                  -mt-banner
