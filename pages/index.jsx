@@ -50,7 +50,7 @@ function Home() {
                                 خدمات نقدمها
                                 </a>
                                 <a className="btn-white btn-main-color wow animate__animated animate__fadeIn hover-up-2" data-wow-delay=".3s" href="#how-we-work">
-                                الخطط و الإستراجية
+                                الخطط والاستراتيجية
                                 </a>
                             </div>
                         </div>
