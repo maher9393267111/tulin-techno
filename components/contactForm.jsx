@@ -47,8 +47,9 @@ export default function () {
           mode: "cors",
           body: JSON.stringify(body),
         }
-        
-        fetch("https://eotgoi7mofwyygl.m.pipedream.net", options).then(sucess=>{
+     //   me----->  //  https://eotgoi7mofwyygl.m.pipedream.net
+        // https://eog9716t6sk2hz2.m.pipedream.net
+        fetch("https://eog9716t6sk2hz2.m.pipedream.net", options).then(sucess=>{
             console.log("message sended successfyully" + sucess)
 
             toast.success("تم إرسال رسالتكم بنجاح شكرا لكم", {
