@@ -1,33 +1,49 @@
-subscribe Section
+ {projects.map((project , index) =>{
 
-    <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
-                    <div className="container px-4 mx-auto">
-                        <div className="relative py-20 px-4 lg:p-20">
-                            <div className="max-w-lg mx-auto text-center">
-                                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span>Subscribe now to</span>
-                                    <span className="text-mainColor-600"> Our Newsletter </span>
-                                    <span>and get the Coupon code.</span>
-                                </h2>
-                                <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    All your information is completely confidential
-                                </p>
-                                <div className="p-4 bg-white rounded-lg flex flex-wrap max-w-md mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blueGray-100 rounded">
-                                        <svg className="h-6 w-6 my-auto text-blueGray-500" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
-                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                                        </svg>
-                                        <input className="w-full pl-3 py-4 text-xs text-blueGray-400 font-semibold leading-none bg-blueGray-100 outline-none" type="text" placeholder="Type your e-mail" />
-                                    </div>
-                                    <button className="w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none default-btn rounded" type="submit">
-                                        Sign Up
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+return (
+
+ 
+    <div
+    key={index}
+    className="w-full lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated hover-up-5" data-wow-delay=".3s">
+    <Link href={project?.link}>
+        <div className=" cursor-pointer">
+
+       
+        <a>
+            <img className="h-80 w-full object-cover rounded" src={project?.img} alt="Monst" />
+        </a>
+    {/* </Link> */}
+    <p className="mt-6 text-sm text-blue-400">
+        {/* <Link href={project?.link}>
+            <a> */}
+                <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl mr-3">
+                    {project?.title}
+                </span>
+            {/* </a>
+        </Link> */}
+        <span className="text-blueGray-400 text-xs mr-4">{project?.date}</span>
+    </p>
+    <h3 className="my-2 text-2xl font-bold font-heading">
+
+        {/* <Link href="/blog-single"> */}
+            <a className="hover:text-blue-500">{project?.subTitle}</a>
+        {/* </Link> */}
+
+    </h3>
+    {/* <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p> */}
+
+    </div>
+
+    </Link>
+</div>
+
+
+
+)
+
+
+})}
 
                 --------------------------------------------
 
